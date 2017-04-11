@@ -1,6 +1,6 @@
 var FACE = FACE || {};
 
-FACE.CHANGE = {
+FACE.AUTH = {
  CLASS: 'border',
 
  init:function(){
@@ -55,5 +55,5 @@ FACE.CHANGE = {
 }
 
 $(function(){
- FACE.CHANGE.init();
+ FACE.AUTH.init();
 });
